@@ -130,7 +130,11 @@ table, caption, tbody, tfoot, thead, tr, th, td, figure {
   background: transparent; }
 
 body {
-  line-height: 1; }
+  line-height: 1; 
+  background-image: url("../../uploads/2016/01/site_background.jpg"); 
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
 
 ol, ul {
   list-style: none; }
