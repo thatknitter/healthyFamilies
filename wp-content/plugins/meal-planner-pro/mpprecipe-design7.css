@@ -1,0 +1,392 @@
+
+/* BASE */
+
+.mpp-recipe-author {
+	float:right;
+	font-size:inherit !important;
+	margin-top:inherit !important;
+}
+#mpprecipe-yield {
+	margin-top:inherit !important;
+}
+
+/*
+
+DESIGN 2
+
+*/
+
+div#mpp-buttons {
+    float: none !important;
+}
+div#mpp-buttons div {
+	margin-right:10px;
+	margin-top:15px !important;
+}
+
+.mpprecipe {
+	color:#444;
+	font-family: 'Helvetica Neue', sans-serif;
+	font-weight:300 !important;
+	font-size:15px !important;
+	word-wrap: initial;
+}
+#mpprecipe-serving-size {
+    font-family:'Helvetica Neue' !important;
+}
+.mpprecipe div, .mpprecipe p { 
+	box-sizing: border-box !important;
+}
+content-box
+#mpprecipe-yield {
+	font-size:18px !important;
+	color:#888888;
+	text-transform:uppercase;
+	letter-spacing:4px;
+	font-weight:300 !important;
+}
+#mpprecipe-title {
+	font-size:32px !important;
+	letter-spacing:1px;
+	color:#3799a2;
+	font-weight:300 !important;	
+}
+#mpprecipe-summary {
+	font-size:20px !important;
+	color:#3799a2;
+	font-style:italic !important;
+	font-weight:300 !important;	
+	
+}
+#mpprecipe-container #mpprecipe-summary .summary {
+    	margin:0;
+
+}
+#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+	color:#bbbbbb;
+	font-weight:400 !important;	
+	font-size:15px !important;
+	
+}
+#mpprecipe-prep-time span, #mpprecipe-cook-time span, #mpprecipe-total-time span {
+	display:block;
+	font-weight:300;
+	color:#444444;
+	font-size:24px !important;
+	line-height: 1.1em;
+	padding-bottom:8px;
+}
+.mpprecipe .h-4 {
+	color:#3799a2;
+	font-size:22px !important;
+	font-weight:400 !important;	
+	
+}
+.butn-link
+{
+	width:  140px;
+	height: 40px;
+	background-color:#fff;
+	cursor: pointer;
+	color:#3799a2;	
+	border:solid #3799a2 3px !important;
+	border-radius:3px;
+	text-align:center;
+	line-height:40px !important;
+	vertical-align:middle !important;
+	font-size:14px !important;
+	font-weight:700 !important;	
+	margin-top:3px !important;
+	
+}
+.save-button img {
+	line-height:40px !important;
+	vertical-align:middle !important;
+}
+.butn-link:hover
+{
+	background-color:#f1f1f1;
+	color:#e03b8a;	
+	border:solid #e03b8a 3px !important;
+}
+
+.save-button
+{
+	width:  140px;
+	height: 40px;
+	background-color:#3799a2;
+	cursor: pointer;
+	color:#fff;	
+	border-radius:3px;
+	text-align:center;
+	line-height:40px !important;
+	vertical-align:middle !important;
+	font-size:14px !important;
+	font-weight:700 !important;
+	margin-top:3px !important;
+
+}
+.save-button:hover
+{
+	background-color:#e03b8a;
+}
+            
+#mpprecipe-yield {
+	text-transform:uppercase;
+	margin-top:0 !important;
+}
+
+.mpp-top {
+	overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.mpp-topright {
+	width:40%;
+	float:right;
+
+}
+.mpp-topleft {
+	float:left;
+	width:60%;
+	padding:0 !important;
+	padding-right:30px  !important;
+}
+.mpp-topleft .fl-l {
+    width: 100%;
+}
+.mpp-toprightimage {
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    margin: 0 auto !important;
+}
+
+
+#mpprecipe-container ul {
+    margin: 1em;
+    padding: 0 0 0 0em;
+}
+#mpprecipe-cook-time {
+	border-left:solid #cccccc 1px !important;
+	border-right:solid #cccccc 1px !important;
+
+}
+#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+	float:left;
+	width:33%;
+	padding:10px !important;
+}
+
+
+
+/* START BUTTON CHANGES */
+#mpp-buttons-2 {
+    padding-bottom: 20px !important;
+    }
+#mpp-buttons-2 a {
+	color:white !important;
+}
+#mpp-buttons-2 a:hover {
+	text-decoration:none !important;
+}
+.myrecipe-button
+{
+      width:  31.9%;
+      height: 40px;
+      background-color:#3799a2;
+      cursor: pointer;
+      color:#fff;
+      border-radius:3px;
+      text-align:center;
+      line-height:40px !important;
+      vertical-align:middle !important;
+      font-size:14px !important;
+      font-weight:700 !important;
+      margin-top:3px !important;
+}
+.myrecipe-button:hover
+{
+      background-color:#e03b8a;
+}
+.mylist-button
+{
+      width:  31.9%;
+      height: 40px;
+      background-color:#3799a2;
+      cursor: pointer;
+      color:#fff;
+      border-radius:3px;
+      text-align:center;
+      line-height:40px !important;
+      vertical-align:middle !important;
+      font-size:14px !important;
+      font-weight:700 !important;
+      margin-top:3px !important;
+}
+.mylist-button:hover
+{
+      background-color:#e03b8a;
+}
+.mycal-button
+{
+      width:  31.9%;
+      height: 40px;
+      background-color:#3799a2;
+      cursor: pointer;
+      color:#fff;
+      border-radius:3px;
+      text-align:center;
+      line-height:40px !important;
+      vertical-align:middle !important;
+      font-size:14px !important;
+      font-weight:700 !important;
+      margin-top:3px !important;
+}
+.mycal-button:hover
+{
+      background-color:#e03b8a;
+}      
+@media screen and (max-width: 530px) {
+      .mycal-button, .mylist-button, .myrecipe-button
+      {
+              width:  100%;
+      }
+}
+/* END BUTTON CHANGES */
+
+.mpp-recipe-author {
+    padding-bottom: 20px !important;
+    display: block !important;
+    color: #e03b8a !important;
+    font-style: italic !important;
+}
+
+@media screen and (max-width: 1300px) {
+	*/
+
+		.mpprecipe {
+			font-size:15px !important;
+
+		}
+		#mpprecipe-yield {
+			font-size:16px !important;
+		}
+		#mpprecipe-title {
+			font-size:40px !important;
+		}
+		#mpprecipe-summary {
+			font-size:18px !important;
+
+	
+		}
+	
+		#mpprecipe-prep-time span, #mpprecipe-cook-time span, #mpprecipe-total-time span {
+			font-size:27px !important;
+		}
+		.mpprecipe .h-4 {
+			font-size:20px !important;
+	
+		}
+		.butn-link
+		{
+
+			font-size:14px !important;
+	
+		}
+	
+
+		.save-button
+		{
+
+			font-size:14px !important;
+
+		}
+	
+}
+@media screen and (max-width: 1050px) {
+	*/
+
+		.mpprecipe {
+			font-size:14px !important;
+
+		}
+		#mpprecipe-yield {
+			font-size:14px !important;
+		}
+		#mpprecipe-title {
+			font-size:32px !important;
+		}
+		#mpprecipe-summary {
+			font-size:18px !important;
+
+	
+		}
+		#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+			font-size:15px !important;
+	
+		}
+		#mpprecipe-prep-time span, #mpprecipe-cook-time span, #mpprecipe-total-time span {
+			font-size:25px !important;
+		}
+		.mpprecipe .h-4 {
+			font-size:18px !important;
+	
+		}
+		.butn-link
+		{
+
+			font-size:13px !important;
+	
+		}
+	
+
+		.save-button
+		{
+
+			font-size:13px !important;
+
+		}
+	
+}
+@media screen and (max-width: 862px) {
+	.mpp-topleft {
+		clear:both;
+		float: none;
+		width: 100%;
+		padding-right: 0px !important; 
+	}
+	.mpp-topright {
+		width: 100%;
+		position: initial;
+		padding-top: 30px !important; 
+
+	}
+}
+@media screen and (max-width: 480px) {
+
+	#mpprecipe-prep-time, #mpprecipe-cook-time, #mpprecipe-total-time {
+		width:100%;
+		margin: 0 !important;
+    	text-align: center !important;
+	}
+	#mpprecipe-cook-time {
+		border-left:solid #cccccc 0px !important;
+		border-right:solid #cccccc 0px !important;
+	}
+	#mpprecipe-summary {
+		padding-bottom:40px;
+	}
+	div#mpp-buttons {
+		margin-top: 10px !important;
+		clear: both !important;
+		float:none !important;
+		padding-top:40px !important;
+	}
+	.mpp-button {
+		display: block !important;
+		margin: 0 auto !important;
+		float: none !important;
+	}
+}
