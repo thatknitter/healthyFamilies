@@ -2029,14 +2029,14 @@ video {
 
 .page-title, .post .title, .page .title {
   font: normal bold 28px/1.2em "Helvetica Neue", Helvetica, Arial sans-serif;
-  margin: 0 0 0.5em; }
+  margin: 0 0 0.5em 5%; }
 
 .post .title a:link, .post .title a:visited,
 .page .title a:link, .page .title a:visited {
   color: #222; }
 
 .post-meta {
-  margin: 0 0 1.8em 0;
+  margin: 0 0 1.8em 5%;
   font: 1em/1em sans-serif;
   color: #999;
   font: 300 12px/18px "Helvetica Neue", Helvetica, Arial, sans-serif; }
@@ -2095,7 +2095,8 @@ video {
   font: 300 15px/1.5em "Helvetica Neue",Helvetica,sans-serif; }
 
 .entry p {
-  margin-bottom: 1.2em; }
+  margin-bottom: 1.2em;
+  margin-left: 5%; }
 
 .entry blockquote {
   position: relative;
