@@ -1,0 +1,77 @@
+version 1.1 ( updated 12-22-2015 )
+- Sitemap Page Template: Fixed metabox heading styling
+	* includes/admin/styles/admin.css
+- Fixed Nav: Fixed the issue with default values, not working correctly
+	* header.php
+	* includes/customizer.php
+- Fixed masonry layout on index pages
+	* includes/core.php
+	* index-content.php
+- Fixed the issue with Date Format option not used in theme
+	* includes/template-tags.php
+- Tabbed Posts Module: Fixed undefined variable notification
+	* module-tabbed-posts.php
+- Customizer: Fixed Header Element Settings JS error
+- Customizer: Fixed website gutter width behaviour
+	* scripts/theme-customizer.js
+- Fixed incorrect advanced design settings and custom css selector for slider arrows
+- Fixed duplicated module order class attribute
+- Posts Carousel Module: Fixed selector issues
+	* includes/modules.php
+	* style.css
+- Featured Posts Slider: Fixed Autoplay setting
+	* module-featured-posts-slider.php
+	* scripts/scripts.js
+- Excluded ratings from comments list ( Dashboard / Comments )
+	* includes/ratings.php
+- Customizer: Improved Social Media Network settings functionality
+	* header.php
+- Post Listings Gallery Post Format: Fixed Image Slider visibility issues
+	* includes/core.php
+	* scripts/scripts.js
+- Video Post Format Meta Box: Improved UX
+	* includes/admin/admin.php
+	* includes/admin/styles/admin.css
+- Extra Settings: Improved UX
+	* includes/admin/admin.php
+	* includes/admin/scripts/admin-posts.js
+- Fixed duplicated registration of project post type
+	* includes/builder-integrations.php
+	* includes/core.php
+- Customizer: Fixed custom widget areas display issue
+	* includes/builder-integrations.php
+	* includes/builder/functions.php
+- Blog Feed Standard: Fixed Pagination salvattore js error
+	* scripts/scripts.js
+- Featured post slider: Fixed "Featured posts only" setting functionality
+	* includes/modules.php
+- Improved Fullwidth Project page layout styling
+- Fixed the issue with URL in Above Post Ad option
+	* includes/template-tags.php
+- Customizer: Fixed hover/active link behavior
+	* includes/customizer.php
+- Fixed the issue with rating stars, not displaying recently selected rating properly
+	* single-post.php
+- Fixed the issue with "Show Comments on Pages" option
+	* page.php
+- ePanel / Layout Settings / Single Post Layout / Sharing Icons to Display: Fixed "Turning one option off hides all icons" issue
+	* includes/epanel/core_functions.php
+- Fixed Image gallery Overlay problem in Safari
+- Fixed incorrect pricing table break in 1/4 column + 3/4 specialty column
+	* includes/builder/styles/frontend-builder-style.css
+- Person Module: Removed typography styles
+- Fixed Project info box items width
+- Woocommerce Category Page: Fixed display issue in Safari on Mac
+- Fixed the issue with Related Posts height, extending to the bottom when comments are disabled
+- Login Module: Fixed placeholder styling inconsistencies
+- Timeline Page Template: Fixed display issues in Safari and IE11
+- Countdown and Tabbed Posts Modules: Fixed styling issues
+- Fixed the issue with masonry blog grid in 1/3 and 1/4 columns
+- Fullwidth Blog Module: Fixed padding issues
+- Post Title: Fixed mobile font size inconsistency
+- Bumped version number
+	* style.css
+
+version 1.0
+
+- initial release

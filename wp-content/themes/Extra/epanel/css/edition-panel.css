@@ -1,0 +1,13 @@
+#epanel-content ul#epanel-mainmenu li a:focus { box-shadow: none; -webkit-box-shadow: none; }
+
+#epanel p.postinfo-author, #epanel p.postinfo-date, #epanel p.postinfo-comments, #epanel p.postinfo-categories, #epanel p.postinfo-rating_stars { float: left; margin-right: 5px; }
+
+#epanel p.postinfo-rating_stars img { vertical-align: middle; width: 89px; height: 19px; background: transparent url(../images/postinfo-rating_stars.jpg) no-repeat; margin-right: 5px; margin-left: 0px !important;}
+
+#epanel p.postinfo-author .jquery-checkbox img, #epanel p.postinfo-categories .jquery-checkbox img, #epanel p.postinfo-comments .jquery-checkbox img, #epanel p.postinfo-rating_stars .jquery-checkbox img, #epanel p.postinfo-date .jquery-checkbox img  { background-position: 0px -22px; }
+
+#epanel p.postinfo-categories .jquery-checkbox img, #epanel p.postinfo-comments .jquery-checkbox img, #epanel p.postinfo-rating_stars .jquery-checkbox img { background-position: 0px -21px; }
+
+#epanel p.postinfo-author .jquery-checkbox-checked img, #epanel p.postinfo-categories .jquery-checkbox-checked img, #epanel p.postinfo-date .jquery-checkbox-checked img, #epanel p.postinfo-comments .jquery-checkbox-checked img, #epanel p.postinfo-rating_stars .jquery-checkbox-checked img { background-position: 0px 0px; }
+
+#epanel p.postinfo-categories .jquery-checkbox-checked img, #epanel p.postinfo-comments .jquery-checkbox-checked img, #epanel p.postinfo-rating_stars .jquery-checkbox-checked img { background-position: 0px 1px; }
